@@ -1,7 +1,7 @@
 import {
-  FaGithub,
+  FaGithub, FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
+  FaXTwitter, 
 } from "react-icons/fa6";
 
 export default function SocialButton() {
@@ -37,6 +37,14 @@ export default function SocialButton() {
           className="hover:text-black transition hover:scale-110"
         >
           <FaXTwitter />
+        </a>
+
+        <a
+          href="https://instagram.com/jaiharinataraj"
+          target="_blank"
+          className="hover:text-black transition hover:scale-110"
+        >
+          <FaInstagram />
         </a>
 
       </div>
